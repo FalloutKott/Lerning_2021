@@ -38,11 +38,11 @@ namespace property_listning
         public SimpleMath(int x, int y) //constructor
         {
             Console.Write("Введите число х: ");
-            this.x = x;
-            x = int.Parse(Console.ReadLine()); // this.(обращаемся к полю класса через его конструктор) Если без this. то обращение идёт к аргументам конструктора.
+            this.x = x;                        // this.(обращаемся к полю класса через его конструктор) Если без this. то обращение идёт к аргументам конструктора.
+            x = int.Parse(Console.ReadLine()); 
             Console.Write("Введите число y: ");
-            this.y = y;
-            y = int.Parse(Console.ReadLine()); // this.(обращаемся к полю класса через его конструктор) Если без this. то обращение идёт к аргументам конструктора.
+            this.y = y;                        // this.(обращаемся к полю класса через его конструктор) Если без this. то обращение идёт к аргументам конструктора.
+            y = int.Parse(Console.ReadLine()); 
             result = x + y;
             Console.WriteLine($"{x} + {y} = {result}");
 
